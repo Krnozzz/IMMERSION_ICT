@@ -1,0 +1,65 @@
+body {
+  background-color: #e0f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+  margin: auto;
+  width: 60px;
+}
+
+.form-container {
+  margin: auto;
+  width: 20px;
+
+}
+
+
+.signin-container {
+  height: 500px;
+  width: 350px;
+  margin: 100px auto;
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.signin-container h2 { 
+  text-align: center;
+  color: #00796b;
+}
+
+.signin-container label {
+  margin-top: 15px;
+  display: block;
+  color: #555;
+}
+
+.signin-container input[type="username"]
+.signin-container input[type="password"]{
+  width: 200%;
+  padding: 50px;
+  margin-top: 80px;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signin-container
+input[type="submit"]:hover{
+  background-color: #004d40;
+}
+
+.signin-container p{
+  text-align: center;
+  margin-top: 20px;
+  color: #999;
+}
+
+body {
+  background-image: url(https://tse4.mm.bing.net/th?id=OIP.ZcovMNRZH3C-s-m8-aJX6wHaEo&pid=Api&P=0&h=220);
+  background-size: cover;
+  
+}
